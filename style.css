@@ -24,7 +24,7 @@ body {
 
 header {
   grid-area: head;
-  height: 25vh;
+  height: 22vh;
   width: 100%;
   background-color: red;
   display: flex;
@@ -32,13 +32,13 @@ header {
   align-items: center;
 }
 header h1 {
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   align-self: flex-start;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header div {
-  font-size: 2rem;
+  font-size: 1.5rem;
   align-items: flex-start;
   text-align: center;
   align-self: flex center;
@@ -58,7 +58,7 @@ header div ul li :first-child {
 
 aside {
   grid-area: side;
-  height: 75vh;
+  height: 78vh;
   background-color: #001933;
   display: flex;
   flex-direction: column;
@@ -67,12 +67,12 @@ aside {
   padding-left: 10%;
 }
 aside h2 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: red;
 }
 aside div {
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   align-items: flex-start;
   text-align: left;
   color: white;
@@ -89,42 +89,42 @@ main {
   justify-content: flex-start;
   background-color: white;
   padding-left: 5%;
-  line-height: 20px;
+  line-height: 0.9em;
 }
 main .traitrouge {
-  height: 5px;
+  height: 3px;
   width: 100%;
   background-color: red;
   margin-top: auto;
 }
 
 main .traitrouge2 {
-  height: 5px;
+  height: 3px;
   width: 100%;
   background-color: red;
   margin-top: auto;
 }
 main h3 {
   font-weight: 900;
-  font-size: 1.3em;
-  margin-top: 1em;
+  font-size: 1.1em;
+  margin-top: 0.9em;
 }
 main div ul li {
   list-style: none;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   margin-top: 1em;
 }
 
 main p {
   padding-left: 5%;
-  font-size: 1.1rem;
+  font-size: 0.7rem;
   font-weight: 250;
   margin-top: auto;
 }
 
 main .traitbleu {
-  height: 5px;
+  height: 1px;
   width: 100%;
   background-color: #001933;
   margin-top: auto;
