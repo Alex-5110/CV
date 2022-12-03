@@ -81,16 +81,6 @@ aside div ul li {
   list-style: none;
 }
 
-main {
-  grid-area: main;
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: white;
-  padding-left: 5%;
-  line-height: 0.9em;
-}
 main .traitrouge {
   height: 3px;
   width: 100%;
